@@ -4,6 +4,8 @@
     <compoundname>MaaDef.h</compoundname>
     <includes local="no">stdint.h</includes>
     <includes refid="MaaPort_8h" local="yes">MaaPort.h</includes>
+    <includedby refid="MaaAgentClientDef_8h" local="yes">include/MaaAgentClient/MaaAgentClientDef.h</includedby>
+    <includedby refid="MaaAgentServerDef_8h" local="yes">include/MaaAgentServer/MaaAgentServerDef.h</includedby>
     <includedby refid="MaaContext_8h" local="yes">include/MaaFramework/Instance/MaaContext.h</includedby>
     <includedby refid="MaaController_8h" local="yes">include/MaaFramework/Instance/MaaController.h</includedby>
     <includedby refid="MaaCustomController_8h" local="yes">include/MaaFramework/Instance/MaaCustomController.h</includedby>
@@ -31,37 +33,57 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="2">
-        <label>include/MaaFramework/Instance/MaaContext.h</label>
-        <link refid="MaaContext_8h"/>
-        <childnode refid="3" relation="include">
-        </childnode>
+      <node id="3">
+        <label>include/MaaAgentClient/MaaAgentClientAPI.h</label>
+        <link refid="MaaAgentClientAPI_8h"/>
       </node>
-      <node id="4">
-        <label>include/MaaFramework/Instance/MaaController.h</label>
-        <link refid="MaaController_8h"/>
+      <node id="2">
+        <label>include/MaaAgentClient/MaaAgentClientDef.h</label>
+        <link refid="MaaAgentClientDef_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="5">
-        <label>include/MaaFramework/Instance/MaaCustomController.h</label>
-        <link refid="MaaCustomController_8h"/>
-        <childnode refid="3" relation="include">
+        <label>include/MaaAgentServer/MaaAgentServerAPI.h</label>
+        <link refid="MaaAgentServerAPI_8h"/>
+      </node>
+      <node id="4">
+        <label>include/MaaAgentServer/MaaAgentServerDef.h</label>
+        <link refid="MaaAgentServerDef_8h"/>
+        <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="6">
+        <label>include/MaaFramework/Instance/MaaContext.h</label>
+        <link refid="MaaContext_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>include/MaaFramework/Instance/MaaController.h</label>
+        <link refid="MaaController_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>include/MaaFramework/Instance/MaaCustomController.h</label>
+        <link refid="MaaCustomController_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
         <label>include/MaaFramework/Instance/MaaResource.h</label>
         <link refid="MaaResource_8h"/>
-        <childnode refid="3" relation="include">
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>include/MaaFramework/Instance/MaaTasker.h</label>
+        <link refid="MaaTasker_8h"/>
+        <childnode refid="7" relation="include">
         </childnode>
       </node>
       <node id="7">
-        <label>include/MaaFramework/Instance/MaaTasker.h</label>
-        <link refid="MaaTasker_8h"/>
-        <childnode refid="3" relation="include">
-        </childnode>
-      </node>
-      <node id="3">
         <label>include/MaaFramework/MaaAPI.h</label>
         <link refid="MaaAPI_8h"/>
       </node>
@@ -72,13 +94,7 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
         <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
@@ -86,59 +102,69 @@
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
-      </node>
-      <node id="8">
-        <label>include/MaaFramework/Utility/MaaBuffer.h</label>
-        <link refid="MaaBuffer_8h"/>
-        <childnode refid="3" relation="include">
-        </childnode>
-      </node>
-      <node id="9">
-        <label>include/MaaFramework/Utility/MaaUtility.h</label>
-        <link refid="MaaUtility_8h"/>
-        <childnode refid="3" relation="include">
-        </childnode>
-      </node>
-      <node id="11">
-        <label>include/MaaToolkit/AdbDevice/MaaToolkitAdbDevice.h</label>
-        <link refid="MaaToolkitAdbDevice_8h"/>
-        <childnode refid="12" relation="include">
-        </childnode>
-      </node>
-      <node id="13">
-        <label>include/MaaToolkit/Config/MaaToolkitConfig.h</label>
-        <link refid="MaaToolkitConfig_8h"/>
-        <childnode refid="12" relation="include">
-        </childnode>
-      </node>
-      <node id="14">
-        <label>include/MaaToolkit/DesktopWindow/MaaToolkitDesktopWindow.h</label>
-        <link refid="MaaToolkitDesktopWindow_8h"/>
-        <childnode refid="12" relation="include">
-        </childnode>
-      </node>
-      <node id="12">
-        <label>include/MaaToolkit/MaaToolkitAPI.h</label>
-        <link refid="MaaToolkitAPI_8h"/>
-      </node>
-      <node id="10">
-        <label>include/MaaToolkit/MaaToolkitDef.h</label>
-        <link refid="MaaToolkitDef_8h"/>
         <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+      </node>
+      <node id="12">
+        <label>include/MaaFramework/Utility/MaaBuffer.h</label>
+        <link refid="MaaBuffer_8h"/>
+        <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+      </node>
+      <node id="13">
+        <label>include/MaaFramework/Utility/MaaUtility.h</label>
+        <link refid="MaaUtility_8h"/>
+        <childnode refid="7" relation="include">
         </childnode>
       </node>
       <node id="15">
+        <label>include/MaaToolkit/AdbDevice/MaaToolkitAdbDevice.h</label>
+        <link refid="MaaToolkitAdbDevice_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>include/MaaToolkit/Config/MaaToolkitConfig.h</label>
+        <link refid="MaaToolkitConfig_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>include/MaaToolkit/DesktopWindow/MaaToolkitDesktopWindow.h</label>
+        <link refid="MaaToolkitDesktopWindow_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>include/MaaToolkit/MaaToolkitAPI.h</label>
+        <link refid="MaaToolkitAPI_8h"/>
+      </node>
+      <node id="14">
+        <label>include/MaaToolkit/MaaToolkitDef.h</label>
+        <link refid="MaaToolkitDef_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
         <label>include/MaaToolkit/ProjectInterface/MaaToolkitProjectInterface.h</label>
         <link refid="MaaToolkitProjectInterface_8h"/>
-        <childnode refid="12" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
@@ -1337,10 +1363,10 @@ value: bool, eg: true; val_size: sizeof(bool)
         </inbodydescription>
         <location file="include/MaaFramework/MaaDef.h" line="281" column="9" bodyfile="include/MaaFramework/MaaDef.h" bodystart="281" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="typedef" id="MaaDef_8h_1a4c72d5184d2333b6deaabd76f2e4db13" prot="public" static="no">
+      <memberdef kind="typedef" id="MaaDef_8h_1a5ea5d33341ce8007c366ebd04f08ee51" prot="public" static="no">
         <type><ref refid="MaaDef_8h_1a2f7289f2a8e07f48c6261b52a120cdf6" kindref="member">MaaBool</ref>(<ref refid="MaaPort_8h_1afaf570464c85866c04fabe324fe35c18" kindref="member">MAA_CALL</ref> *</type>
-        <definition>typedef MaaBool(MAA_CALL * MaaCustomRecognitionCallback) (MaaContext *context, MaaTaskId task_id, const char *current_task_name, const char *custom_recognition_name, const char *custom_recognition_param, const MaaImageBuffer *image, const MaaRect *roi, void *trans_arg, MaaRect *out_box, MaaStringBuffer *out_detail)</definition>
-        <argsstring>)(MaaContext *context, MaaTaskId task_id, const char *current_task_name, const char *custom_recognition_name, const char *custom_recognition_param, const MaaImageBuffer *image, const MaaRect *roi, void *trans_arg, MaaRect *out_box, MaaStringBuffer *out_detail)</argsstring>
+        <definition>typedef MaaBool(MAA_CALL * MaaCustomRecognitionCallback) (MaaContext *context, MaaTaskId task_id, const char *node_name, const char *custom_recognition_name, const char *custom_recognition_param, const MaaImageBuffer *image, const MaaRect *roi, void *trans_arg, MaaRect *out_box, MaaStringBuffer *out_detail)</definition>
+        <argsstring>)(MaaContext *context, MaaTaskId task_id, const char *node_name, const char *custom_recognition_name, const char *custom_recognition_param, const MaaImageBuffer *image, const MaaRect *roi, void *trans_arg, MaaRect *out_box, MaaStringBuffer *out_detail)</argsstring>
         <name>MaaCustomRecognitionCallback</name>
         <briefdescription>
         </briefdescription>
@@ -1350,10 +1376,10 @@ value: bool, eg: true; val_size: sizeof(bool)
         </inbodydescription>
         <location file="include/MaaFramework/MaaDef.h" line="283" column="9" bodyfile="include/MaaFramework/MaaDef.h" bodystart="283" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="typedef" id="MaaDef_8h_1a585ec65a9f845b2922eda1d2fffa36b7" prot="public" static="no">
+      <memberdef kind="typedef" id="MaaDef_8h_1a5d8d307550fff35a2df364eeac7f5191" prot="public" static="no">
         <type><ref refid="MaaDef_8h_1a2f7289f2a8e07f48c6261b52a120cdf6" kindref="member">MaaBool</ref>(<ref refid="MaaPort_8h_1afaf570464c85866c04fabe324fe35c18" kindref="member">MAA_CALL</ref> *</type>
-        <definition>typedef MaaBool(MAA_CALL * MaaCustomActionCallback) (MaaContext *context, MaaTaskId task_id, const char *current_task_name, const char *custom_action_name, const char *custom_action_param, MaaRecoId reco_id, const MaaRect *box, void *trans_arg)</definition>
-        <argsstring>)(MaaContext *context, MaaTaskId task_id, const char *current_task_name, const char *custom_action_name, const char *custom_action_param, MaaRecoId reco_id, const MaaRect *box, void *trans_arg)</argsstring>
+        <definition>typedef MaaBool(MAA_CALL * MaaCustomActionCallback) (MaaContext *context, MaaTaskId task_id, const char *node_name, const char *custom_action_name, const char *custom_action_param, MaaRecoId reco_id, const MaaRect *box, void *trans_arg)</definition>
+        <argsstring>)(MaaContext *context, MaaTaskId task_id, const char *node_name, const char *custom_action_name, const char *custom_action_param, MaaRecoId reco_id, const MaaRect *box, void *trans_arg)</argsstring>
         <name>MaaCustomActionCallback</name>
         <briefdescription>
         </briefdescription>
