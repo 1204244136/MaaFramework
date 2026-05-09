@@ -1,0 +1,1379 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="MaaDef_8h" kind="file" language="C++">
+    <compoundname>MaaDef.h</compoundname>
+    <includes local="no">stdint.h</includes>
+    <includes refid="MaaPort_8h" local="yes">MaaPort.h</includes>
+    <includedby refid="MaaContext_8h" local="yes">include/MaaFramework/Instance/MaaContext.h</includedby>
+    <includedby refid="MaaController_8h" local="yes">include/MaaFramework/Instance/MaaController.h</includedby>
+    <includedby refid="MaaCustomController_8h" local="yes">include/MaaFramework/Instance/MaaCustomController.h</includedby>
+    <includedby refid="MaaResource_8h" local="yes">include/MaaFramework/Instance/MaaResource.h</includedby>
+    <includedby refid="MaaTasker_8h" local="yes">include/MaaFramework/Instance/MaaTasker.h</includedby>
+    <includedby refid="MaaAPI_8h" local="yes">include/MaaFramework/MaaAPI.h</includedby>
+    <includedby refid="MaaBuffer_8h" local="yes">include/MaaFramework/Utility/MaaBuffer.h</includedby>
+    <includedby refid="MaaUtility_8h" local="yes">include/MaaFramework/Utility/MaaUtility.h</includedby>
+    <includedby refid="MaaToolkitDef_8h" local="yes">include/MaaToolkit/MaaToolkitDef.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>include/MaaFramework/MaaDef.h</label>
+        <link refid="MaaDef_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MaaPort.h</label>
+        <link refid="MaaPort_8h"/>
+      </node>
+      <node id="2">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>include/MaaFramework/Instance/MaaContext.h</label>
+        <link refid="MaaContext_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>include/MaaFramework/Instance/MaaController.h</label>
+        <link refid="MaaController_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>include/MaaFramework/Instance/MaaCustomController.h</label>
+        <link refid="MaaCustomController_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>include/MaaFramework/Instance/MaaResource.h</label>
+        <link refid="MaaResource_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>include/MaaFramework/Instance/MaaTasker.h</label>
+        <link refid="MaaTasker_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>include/MaaFramework/MaaAPI.h</label>
+        <link refid="MaaAPI_8h"/>
+      </node>
+      <node id="1">
+        <label>include/MaaFramework/MaaDef.h</label>
+        <link refid="MaaDef_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>include/MaaFramework/Utility/MaaBuffer.h</label>
+        <link refid="MaaBuffer_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>include/MaaFramework/Utility/MaaUtility.h</label>
+        <link refid="MaaUtility_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>include/MaaToolkit/AdbDevice/MaaToolkitAdbDevice.h</label>
+        <link refid="MaaToolkitAdbDevice_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>include/MaaToolkit/Config/MaaToolkitConfig.h</label>
+        <link refid="MaaToolkitConfig_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>include/MaaToolkit/DesktopWindow/MaaToolkitDesktopWindow.h</label>
+        <link refid="MaaToolkitDesktopWindow_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>include/MaaToolkit/MaaToolkitAPI.h</label>
+        <link refid="MaaToolkitAPI_8h"/>
+      </node>
+      <node id="10">
+        <label>include/MaaToolkit/MaaToolkitDef.h</label>
+        <link refid="MaaToolkitDef_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>include/MaaToolkit/ProjectInterface/MaaToolkitProjectInterface.h</label>
+        <link refid="MaaToolkitProjectInterface_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structMaaRect" prot="public">MaaRect</innerclass>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="MaaDef_8h_1a9eddd2fb954b055dd2ea4d9cdd267188" prot="public" static="no">
+        <name>MaaNullSize</name>
+        <initializer>UINT64_MAX</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="20" column="9" bodyfile="include/MaaFramework/MaaDef.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="MaaDef_8h_1a1b93c853d770a6723301f135d9e9e3bc" prot="public" static="no">
+        <name>MaaInvalidId</name>
+        <initializer>((<ref refid="MaaDef_8h_1a9a764a8b46c0c97cbfe2d8e295d90e03" kindref="member">MaaId</ref>)0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="28" column="9" bodyfile="include/MaaFramework/MaaDef.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="MaaDef_8h_1aba5cc89306598105a8cee7580867bc35" prot="public" static="no">
+        <name>MaaAdbScreencapMethod_EncodeToFileAndPull</name>
+        <initializer>1ULL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="213" column="9" bodyfile="include/MaaFramework/MaaDef.h" bodystart="213" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="MaaDef_8h_1a64dc561558d3344586b97b208ca466eb" prot="public" static="no">
+        <name>MaaAdbScreencapMethod_Encode</name>
+        <initializer>(1ULL &lt;&lt; 1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="214" column="9" bodyfile="include/MaaFramework/MaaDef.h" bodystart="214" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="MaaDef_8h_1a1a291483b888ab3e944818b33aeb98c9" prot="public" static="no">
+        <name>MaaAdbScreencapMethod_RawWithGzip</name>
+        <initializer>(1ULL &lt;&lt; 2)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="215" column="9" bodyfile="include/MaaFramework/MaaDef.h" bodystart="215" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="MaaDef_8h_1a94e3946d5d361f2571126016d41a2676" prot="public" static="no">
+        <name>MaaAdbScreencapMethod_RawByNetcat</name>
+        <initializer>(1ULL &lt;&lt; 3)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="216" column="9" bodyfile="include/MaaFramework/MaaDef.h" bodystart="216" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="MaaDef_8h_1a594d59b13a02d41b6a335e0f6575fca2" prot="public" static="no">
+        <name>MaaAdbScreencapMethod_MinicapDirect</name>
+        <initializer>(1ULL &lt;&lt; 4)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="217" column="9" bodyfile="include/MaaFramework/MaaDef.h" bodystart="217" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="MaaDef_8h_1a81656785989eff6004704d5cc908552e" prot="public" static="no">
+        <name>MaaAdbScreencapMethod_MinicapStream</name>
+        <initializer>(1ULL &lt;&lt; 5)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="218" column="9" bodyfile="include/MaaFramework/MaaDef.h" bodystart="218" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="MaaDef_8h_1a55c4f433547d52de1c93c3d01d58aed7" prot="public" static="no">
+        <name>MaaAdbScreencapMethod_EmulatorExtras</name>
+        <initializer>(1ULL &lt;&lt; 6)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="219" column="9" bodyfile="include/MaaFramework/MaaDef.h" bodystart="219" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="MaaDef_8h_1ad3df932dcfe5f836a7e98f0ebef2cf83" prot="public" static="no">
+        <name>MaaAdbScreencapMethod_None</name>
+        <initializer>0ULL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="221" column="9" bodyfile="include/MaaFramework/MaaDef.h" bodystart="221" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="MaaDef_8h_1a004b0d855740e5d3894fd14d9e47d080" prot="public" static="no">
+        <name>MaaAdbScreencapMethod_All</name>
+        <initializer>(~<ref refid="MaaDef_8h_1ad3df932dcfe5f836a7e98f0ebef2cf83" kindref="member">MaaAdbScreencapMethod_None</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="222" column="9" bodyfile="include/MaaFramework/MaaDef.h" bodystart="222" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="MaaDef_8h_1ab558d3ce8a6a402fb562715c452f04f5" prot="public" static="no">
+        <name>MaaAdbScreencapMethod_Default</name>
+        <initializer>    (<ref refid="MaaDef_8h_1a004b0d855740e5d3894fd14d9e47d080" kindref="member">MaaAdbScreencapMethod_All</ref> &amp; (~<ref refid="MaaDef_8h_1a94e3946d5d361f2571126016d41a2676" kindref="member">MaaAdbScreencapMethod_RawByNetcat</ref>) &amp; (~<ref refid="MaaDef_8h_1a594d59b13a02d41b6a335e0f6575fca2" kindref="member">MaaAdbScreencapMethod_MinicapDirect</ref>) \
+     &amp; (~<ref refid="MaaDef_8h_1a81656785989eff6004704d5cc908552e" kindref="member">MaaAdbScreencapMethod_MinicapStream</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="223" column="9" bodyfile="include/MaaFramework/MaaDef.h" bodystart="223" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="define" id="MaaDef_8h_1a1b721a64c9bee9b40343caff66f9f64e" prot="public" static="no">
+        <name>MaaAdbInputMethod_AdbShell</name>
+        <initializer>1ULL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="233" column="9" bodyfile="include/MaaFramework/MaaDef.h" bodystart="233" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="MaaDef_8h_1a21229ecc6df1fd87bd9877e7f80504a2" prot="public" static="no">
+        <name>MaaAdbInputMethod_MinitouchAndAdbKey</name>
+        <initializer>(1ULL &lt;&lt; 1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="234" column="9" bodyfile="include/MaaFramework/MaaDef.h" bodystart="234" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="MaaDef_8h_1abeedfd44c6fa8caaa1b9c371b90c82eb" prot="public" static="no">
+        <name>MaaAdbInputMethod_Maatouch</name>
+        <initializer>(1ULL &lt;&lt; 2)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="235" column="9" bodyfile="include/MaaFramework/MaaDef.h" bodystart="235" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="MaaDef_8h_1ad45ca7f8c290dfe4c4c5652e0bdfa39f" prot="public" static="no">
+        <name>MaaAdbInputMethod_EmulatorExtras</name>
+        <initializer>(1ULL &lt;&lt; 3)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="236" column="9" bodyfile="include/MaaFramework/MaaDef.h" bodystart="236" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="MaaDef_8h_1a5d201ca1f58e33b38be2fd7b9f977975" prot="public" static="no">
+        <name>MaaAdbInputMethod_None</name>
+        <initializer>0ULL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="238" column="9" bodyfile="include/MaaFramework/MaaDef.h" bodystart="238" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="MaaDef_8h_1a409e67845229acd9d8332a482f9a7cb8" prot="public" static="no">
+        <name>MaaAdbInputMethod_All</name>
+        <initializer>(~<ref refid="MaaDef_8h_1a5d201ca1f58e33b38be2fd7b9f977975" kindref="member">MaaAdbInputMethod_None</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="239" column="9" bodyfile="include/MaaFramework/MaaDef.h" bodystart="239" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="MaaDef_8h_1ad89de988d2c725fd34d1596843551870" prot="public" static="no">
+        <name>MaaAdbInputMethod_Default</name>
+        <initializer>(<ref refid="MaaDef_8h_1a409e67845229acd9d8332a482f9a7cb8" kindref="member">MaaAdbInputMethod_All</ref> &amp; (~<ref refid="MaaDef_8h_1ad45ca7f8c290dfe4c4c5652e0bdfa39f" kindref="member">MaaAdbInputMethod_EmulatorExtras</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="240" column="9" bodyfile="include/MaaFramework/MaaDef.h" bodystart="240" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="MaaDef_8h_1a614ef2e0ce06147b8077158da914292f" prot="public" static="no">
+        <name>MaaWin32ScreencapMethod_None</name>
+        <initializer>0ULL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="247" column="9" bodyfile="include/MaaFramework/MaaDef.h" bodystart="247" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="MaaDef_8h_1a8ac9b0f247ee9b853034b35969adc050" prot="public" static="no">
+        <name>MaaWin32ScreencapMethod_GDI</name>
+        <initializer>1ULL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="248" column="9" bodyfile="include/MaaFramework/MaaDef.h" bodystart="248" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="MaaDef_8h_1ac28f7c7af8541a08033bd77772ebd082" prot="public" static="no">
+        <name>MaaWin32ScreencapMethod_FramePool</name>
+        <initializer>(1ULL &lt;&lt; 1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="249" column="9" bodyfile="include/MaaFramework/MaaDef.h" bodystart="249" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="MaaDef_8h_1a4d026e22eafc66cebdde713c465611c8" prot="public" static="no">
+        <name>MaaWin32ScreencapMethod_DXGI_DesktopDup</name>
+        <initializer>(1ULL &lt;&lt; 2)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="250" column="9" bodyfile="include/MaaFramework/MaaDef.h" bodystart="250" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="MaaDef_8h_1a637a673d747aa47edfa545da69c936b1" prot="public" static="no">
+        <name>MaaWin32InputMethod_None</name>
+        <initializer>0ULL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="257" column="9" bodyfile="include/MaaFramework/MaaDef.h" bodystart="257" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="MaaDef_8h_1a28f884858b13895fa20adec0fede3aaf" prot="public" static="no">
+        <name>MaaWin32InputMethod_Seize</name>
+        <initializer>1ULL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="258" column="9" bodyfile="include/MaaFramework/MaaDef.h" bodystart="258" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="MaaDef_8h_1a2fee933704cac46f8223159133aeb8db" prot="public" static="no">
+        <name>MaaWin32InputMethod_SendMessage</name>
+        <initializer>(1ULL &lt;&lt; 1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="259" column="9" bodyfile="include/MaaFramework/MaaDef.h" bodystart="259" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="MaaDef_8h_1ab67ca0fce1cf517080804b1cae4be9b6" prot="public" static="no">
+        <name>MaaDbgControllerType_None</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="266" column="9" bodyfile="include/MaaFramework/MaaDef.h" bodystart="266" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="MaaDef_8h_1a6a9179147858e053948175909352e60d" prot="public" static="no">
+        <name>MaaDbgControllerType_CarouselImage</name>
+        <initializer>1ULL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="267" column="9" bodyfile="include/MaaFramework/MaaDef.h" bodystart="267" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="MaaDef_8h_1ad5fbfc89110fdbfd5f535c0a4557b809" prot="public" static="no">
+        <name>MaaDbgControllerType_ReplayRecording</name>
+        <initializer>(1ULL &lt;&lt; 1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="268" column="9" bodyfile="include/MaaFramework/MaaDef.h" bodystart="268" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="MaaDef_8h_1a92a321c9e89a79ab64dc5176057d76a6" prot="public" static="no" strong="no">
+        <type></type>
+        <name>MaaStatusEnum</name>
+        <enumvalue id="MaaDef_8h_1a92a321c9e89a79ab64dc5176057d76a6a062c9b1508f38dba096aa2587ba08d40" prot="public">
+          <name>MaaStatus_Invalid</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MaaDef_8h_1a92a321c9e89a79ab64dc5176057d76a6ad675ca7fe058998743ec8d99c72a914e" prot="public">
+          <name>MaaStatus_Pending</name>
+          <initializer>= 1000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MaaDef_8h_1a92a321c9e89a79ab64dc5176057d76a6a05c689d4235e1214eab9abaf7cd6809b" prot="public">
+          <name>MaaStatus_Running</name>
+          <initializer>= 2000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MaaDef_8h_1a92a321c9e89a79ab64dc5176057d76a6a48d0596abd16c119daeb236a735515d8" prot="public">
+          <name>MaaStatus_Succeeded</name>
+          <initializer>= 3000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MaaDef_8h_1a92a321c9e89a79ab64dc5176057d76a6a341c204f14050eb7dc068032ee9eaf63" prot="public">
+          <name>MaaStatus_Failed</name>
+          <initializer>= 4000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="42" column="1" bodyfile="include/MaaFramework/MaaDef.h" bodystart="43" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="enum" id="MaaDef_8h_1a81060ab7b5fa44bfe6861f3882dec9a9" prot="public" static="no" strong="no">
+        <type></type>
+        <name>MaaLoggingLevelEnum</name>
+        <enumvalue id="MaaDef_8h_1a81060ab7b5fa44bfe6861f3882dec9a9a886d0c4c0b743640330ce103ef377f96" prot="public">
+          <name>MaaLoggingLevel_Off</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MaaDef_8h_1a81060ab7b5fa44bfe6861f3882dec9a9aa3fa463a8d3ae69d4e6cd55e468a9b0e" prot="public">
+          <name>MaaLoggingLevel_Fatal</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MaaDef_8h_1a81060ab7b5fa44bfe6861f3882dec9a9a92f97dd39fafb12283ce88b4b2b1d191" prot="public">
+          <name>MaaLoggingLevel_Error</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MaaDef_8h_1a81060ab7b5fa44bfe6861f3882dec9a9ab8ab1b9f82635c2f5ff28c7a9a1978cb" prot="public">
+          <name>MaaLoggingLevel_Warn</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MaaDef_8h_1a81060ab7b5fa44bfe6861f3882dec9a9a58564e8e730e7bb829c2c177abed4c03" prot="public">
+          <name>MaaLoggingLevel_Info</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MaaDef_8h_1a81060ab7b5fa44bfe6861f3882dec9a9a0de032c18e2fa9d3bc0ed24f534b3e84" prot="public">
+          <name>MaaLoggingLevel_Debug</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MaaDef_8h_1a81060ab7b5fa44bfe6861f3882dec9a9a3d13be5b9e5135ffff14f59cc3d7a827" prot="public">
+          <name>MaaLoggingLevel_Trace</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MaaDef_8h_1a81060ab7b5fa44bfe6861f3882dec9a9a14f8e972156685897fa8fc5b2195a214" prot="public">
+          <name>MaaLoggingLevel_All</name>
+          <initializer>= 7</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="54" column="1" bodyfile="include/MaaFramework/MaaDef.h" bodystart="55" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="enum" id="MaaDef_8h_1ad09e62ec1fd03dadaf5fb009026c38ee" prot="public" static="no" strong="no">
+        <type></type>
+        <name>MaaGlobalOptionEnum</name>
+        <enumvalue id="MaaDef_8h_1ad09e62ec1fd03dadaf5fb009026c38eeaf81992513d077ca4fe38f7ae787695cd" prot="public">
+          <name>MaaGlobalOption_Invalid</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MaaDef_8h_1ad09e62ec1fd03dadaf5fb009026c38eea8669cc4382b1f28ea428aff511029b5c" prot="public">
+          <name>MaaGlobalOption_LogDir</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Log dir <verbatim>value: string, eg: &quot;C:\\Users\\Administrator\\Desktop\\log&quot;; val_size: string length 
+</verbatim> </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MaaDef_8h_1ad09e62ec1fd03dadaf5fb009026c38eeaaf9faa9621c830f79ba687467a3d9c5a" prot="public">
+          <name>MaaGlobalOption_SaveDraw</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Whether to save draw <verbatim>value: bool, eg: true; val_size: sizeof(bool) 
+</verbatim> </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MaaDef_8h_1ad09e62ec1fd03dadaf5fb009026c38eeaf316c8e11fd054dfe965b904e3ce93b4" prot="public">
+          <name>MaaGlobalOption_Recording</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Dump all screenshots and actions <verbatim>Recording will evaluate to true if any of this or MaaCtrlOptionEnum::MaaCtrlOption_Recording is true.
+value: bool, eg: true; val_size: sizeof(bool) 
+</verbatim> </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MaaDef_8h_1ad09e62ec1fd03dadaf5fb009026c38eea58ba5999f483b497af3eac6d327d53e6" prot="public">
+          <name>MaaGlobalOption_StdoutLevel</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>The level of log output to stdout <verbatim>value: MaaLoggingLevel, val_size: sizeof(MaaLoggingLevel)
+default value is MaaLoggingLevel_Error 
+</verbatim> </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MaaDef_8h_1ad09e62ec1fd03dadaf5fb009026c38eea1a175dc6811ec0aedb23b87b98d68b40" prot="public">
+          <name>MaaGlobalOption_ShowHitDraw</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Whether to show hit draw <verbatim>value: bool, eg: true; val_size: sizeof(bool) 
+</verbatim> </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MaaDef_8h_1ad09e62ec1fd03dadaf5fb009026c38eea85acfc5fc6cdca745d0eb2a090c05c5f" prot="public">
+          <name>MaaGlobalOption_DebugMode</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Whether to debug <verbatim>value: bool, eg: true; val_size: sizeof(bool) 
+</verbatim> </para>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="72" column="1" bodyfile="include/MaaFramework/MaaDef.h" bodystart="73" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="enum" id="MaaDef_8h_1a70d2d23982bb9114d93ce5e811288679" prot="public" static="no" strong="no">
+        <type></type>
+        <name>MaaInferenceDeviceEnum</name>
+        <enumvalue id="MaaDef_8h_1a70d2d23982bb9114d93ce5e811288679ae4eb278e6b02b9b25afa7261d0b5c70e" prot="public">
+          <name>MaaInferenceDevice_CPU</name>
+          <initializer>= -2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MaaDef_8h_1a70d2d23982bb9114d93ce5e811288679a335e0821f21a444ed2bbb45f61df4e1b" prot="public">
+          <name>MaaInferenceDevice_Auto</name>
+          <initializer>= -1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MaaDef_8h_1a70d2d23982bb9114d93ce5e811288679aca97cfe49416f43e87c0baf4f424c3a9" prot="public">
+          <name>MaaInferenceDevice_0</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MaaDef_8h_1a70d2d23982bb9114d93ce5e811288679ac1b2a2430eebf70ac1dc6c2a64410d03" prot="public">
+          <name>MaaInferenceDevice_1</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="114" column="1" bodyfile="include/MaaFramework/MaaDef.h" bodystart="115" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="enum" id="MaaDef_8h_1a07c99fb673242274e529810067429535" prot="public" static="no" strong="no">
+        <type></type>
+        <name>MaaInferenceExecutionProviderEnum</name>
+        <enumvalue id="MaaDef_8h_1a07c99fb673242274e529810067429535af9af6ca1f146dc2fc2e414e10aad2da7" prot="public">
+          <name>MaaInferenceExecutionProvider_Auto</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MaaDef_8h_1a07c99fb673242274e529810067429535aa7f96492e1e243a6f4a08c587d727fad" prot="public">
+          <name>MaaInferenceExecutionProvider_CPU</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MaaDef_8h_1a07c99fb673242274e529810067429535afc6b391b560f1e7d421ca2c6e26c693b" prot="public">
+          <name>MaaInferenceExecutionProvider_DirectML</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MaaDef_8h_1a07c99fb673242274e529810067429535ae25a91ba56fd4ace8c4f5034e87320d0" prot="public">
+          <name>MaaInferenceExecutionProvider_CoreML</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MaaDef_8h_1a07c99fb673242274e529810067429535aada9d3c290c0a54170963a8885e1550c" prot="public">
+          <name>MaaInferenceExecutionProvider_CUDA</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="123" column="1" bodyfile="include/MaaFramework/MaaDef.h" bodystart="124" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="enum" id="MaaDef_8h_1a9aa211dbcabe90cacd0c94ea6a03d116" prot="public" static="no" strong="no">
+        <type></type>
+        <name>MaaResOptionEnum</name>
+        <enumvalue id="MaaDef_8h_1a9aa211dbcabe90cacd0c94ea6a03d116afdc31dbaaa6b035f11b40cd574165f8e" prot="public">
+          <name>MaaResOption_Invalid</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MaaDef_8h_1a9aa211dbcabe90cacd0c94ea6a03d116a3ff6bf91b8715ced2a6c20ac9c1b4109" prot="public">
+          <name>MaaResOption_InferenceDevice</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Use the specified inference device. Please set this option before loading the model.</para>
+<para>value: MaaInferenceDevice, eg: 0; val_size: sizeof(MaaInferenceDevice) default value is MaaInferenceDevice_Auto </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MaaDef_8h_1a9aa211dbcabe90cacd0c94ea6a03d116ace3b2838a2190168d82cf04fd4d05cf9" prot="public">
+          <name>MaaResOption_InferenceExecutionProvider</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Use the specified inference execution provider Please set this option before loading the model.</para>
+<para>value: MaaInferenceExecutionProvider, eg: 0; val_size: sizeof(MaaInferenceExecutionProvider) default value is MaaInferenceExecutionProvider_Auto </para>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="147" column="1" bodyfile="include/MaaFramework/MaaDef.h" bodystart="148" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="enum" id="MaaDef_8h_1ac9daa36008267a26662244d2f5570003" prot="public" static="no" strong="no">
+        <type></type>
+        <name>MaaCtrlOptionEnum</name>
+        <enumvalue id="MaaDef_8h_1ac9daa36008267a26662244d2f5570003a4afeb097dfa70801c8fa43d83bb5c51f" prot="public">
+          <name>MaaCtrlOption_Invalid</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MaaDef_8h_1ac9daa36008267a26662244d2f5570003a83157be6a22a5e62d4929c7bcd095f75" prot="public">
+          <name>MaaCtrlOption_ScreenshotTargetLongSide</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Only one of long and short side can be set, and the other is automatically scaled according to the aspect ratio. <verbatim>value: int, eg: 1280; val_size: sizeof(int) 
+</verbatim> </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MaaDef_8h_1ac9daa36008267a26662244d2f5570003a8184b8456cf2148033e494be5d8220d3" prot="public">
+          <name>MaaCtrlOption_ScreenshotTargetShortSide</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Only one of long and short side can be set, and the other is automatically scaled according to the aspect ratio. <verbatim>value: int, eg: 720; val_size: sizeof(int) 
+</verbatim> </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MaaDef_8h_1ac9daa36008267a26662244d2f5570003a3fd0252e4db060bc453d7b8902260105" prot="public">
+          <name>MaaCtrlOption_ScreenshotUseRawSize</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Screenshot use raw size without scaling. Please note that this option may cause incorrect coordinates on user devices with different resolutions if scaling is not performed.</para>
+<para>value: bool, eg: true; val_size: sizeof(bool) </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MaaDef_8h_1ac9daa36008267a26662244d2f5570003afa8741fa6ccca208c0f65c0b8880832a" prot="public">
+          <name>MaaCtrlOption_Recording</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Dump all screenshots and actions <verbatim>Recording will evaluate to true if any of this or
+MaaGlobalOptionEnum::MaaGlobalOption_Recording is true.
+
+value: bool, eg: true; val_size: sizeof(bool) 
+</verbatim> </para>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Option keys for controller instance options. See <ref refid="MaaController_8h_1ac0247a25f33dfbc7bd3a0183a669aad3" kindref="member">MaaControllerSetOption()</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="172" column="1" bodyfile="include/MaaFramework/MaaDef.h" bodystart="173" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="enum" id="MaaDef_8h_1a7ce6a82a2484734da58c3c422d19a9b1" prot="public" static="no" strong="no">
+        <type></type>
+        <name>MaaTaskerOptionEnum</name>
+        <enumvalue id="MaaDef_8h_1a7ce6a82a2484734da58c3c422d19a9b1a44343c1c73aabeacff9a9f91805a16aa" prot="public">
+          <name>MaaTaskerOption_Invalid</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="203" column="1" bodyfile="include/MaaFramework/MaaDef.h" bodystart="204" bodyend="206"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MaaDef_8h_1a2f7289f2a8e07f48c6261b52a120cdf6" prot="public" static="no">
+        <type>uint8_t</type>
+        <definition>typedef uint8_t MaaBool</definition>
+        <argsstring></argsstring>
+        <name>MaaBool</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="18" column="17" bodyfile="include/MaaFramework/MaaDef.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MaaDef_8h_1a72a89077c419a0fe586d68bde004d856" prot="public" static="no">
+        <type>uint64_t</type>
+        <definition>typedef uint64_t MaaSize</definition>
+        <argsstring></argsstring>
+        <name>MaaSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="19" column="18" bodyfile="include/MaaFramework/MaaDef.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MaaDef_8h_1a9a764a8b46c0c97cbfe2d8e295d90e03" prot="public" static="no">
+        <type>int64_t</type>
+        <definition>typedef int64_t MaaId</definition>
+        <argsstring></argsstring>
+        <name>MaaId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="22" column="17" bodyfile="include/MaaFramework/MaaDef.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MaaDef_8h_1aea6a27f8f45b661fda5c19b6062b656e" prot="public" static="no">
+        <type><ref refid="MaaDef_8h_1a9a764a8b46c0c97cbfe2d8e295d90e03" kindref="member">MaaId</ref></type>
+        <definition>typedef MaaId MaaCtrlId</definition>
+        <argsstring></argsstring>
+        <name>MaaCtrlId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="23" column="15" bodyfile="include/MaaFramework/MaaDef.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MaaDef_8h_1ac1f7514a514f2b5af32cabc02eedca85" prot="public" static="no">
+        <type><ref refid="MaaDef_8h_1a9a764a8b46c0c97cbfe2d8e295d90e03" kindref="member">MaaId</ref></type>
+        <definition>typedef MaaId MaaResId</definition>
+        <argsstring></argsstring>
+        <name>MaaResId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="24" column="15" bodyfile="include/MaaFramework/MaaDef.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MaaDef_8h_1a711b3db9be6db60ae4cb09e3629e42f0" prot="public" static="no">
+        <type><ref refid="MaaDef_8h_1a9a764a8b46c0c97cbfe2d8e295d90e03" kindref="member">MaaId</ref></type>
+        <definition>typedef MaaId MaaTaskId</definition>
+        <argsstring></argsstring>
+        <name>MaaTaskId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="25" column="15" bodyfile="include/MaaFramework/MaaDef.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MaaDef_8h_1a7519e6a8329a32c8e3058c20ec74cda8" prot="public" static="no">
+        <type><ref refid="MaaDef_8h_1a9a764a8b46c0c97cbfe2d8e295d90e03" kindref="member">MaaId</ref></type>
+        <definition>typedef MaaId MaaRecoId</definition>
+        <argsstring></argsstring>
+        <name>MaaRecoId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="26" column="15" bodyfile="include/MaaFramework/MaaDef.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MaaDef_8h_1aeedbbed1bc17d1ffd80ff719a71cfed5" prot="public" static="no">
+        <type><ref refid="MaaDef_8h_1a9a764a8b46c0c97cbfe2d8e295d90e03" kindref="member">MaaId</ref></type>
+        <definition>typedef MaaId MaaNodeId</definition>
+        <argsstring></argsstring>
+        <name>MaaNodeId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="27" column="15" bodyfile="include/MaaFramework/MaaDef.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MaaDef_8h_1a4010bb63df489fc09efb6ba9a1fc1c98" prot="public" static="no">
+        <type>struct <ref refid="MaaDef_8h_1a4010bb63df489fc09efb6ba9a1fc1c98" kindref="member">MaaStringBuffer</ref></type>
+        <definition>typedef struct MaaStringBuffer MaaStringBuffer</definition>
+        <argsstring></argsstring>
+        <name>MaaStringBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="30" column="30" bodyfile="include/MaaFramework/MaaDef.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MaaDef_8h_1a0a52c8503deca448e71a407cdb14d259" prot="public" static="no">
+        <type>struct <ref refid="MaaDef_8h_1a0a52c8503deca448e71a407cdb14d259" kindref="member">MaaImageBuffer</ref></type>
+        <definition>typedef struct MaaImageBuffer MaaImageBuffer</definition>
+        <argsstring></argsstring>
+        <name>MaaImageBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="31" column="29" bodyfile="include/MaaFramework/MaaDef.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MaaDef_8h_1a7668a404d5063ffc525180d3e144999f" prot="public" static="no">
+        <type>struct <ref refid="MaaDef_8h_1a7668a404d5063ffc525180d3e144999f" kindref="member">MaaStringListBuffer</ref></type>
+        <definition>typedef struct MaaStringListBuffer MaaStringListBuffer</definition>
+        <argsstring></argsstring>
+        <name>MaaStringListBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="32" column="34" bodyfile="include/MaaFramework/MaaDef.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MaaDef_8h_1a851b5afdefb36ce0affc05d7df854142" prot="public" static="no">
+        <type>struct <ref refid="MaaDef_8h_1a851b5afdefb36ce0affc05d7df854142" kindref="member">MaaImageListBuffer</ref></type>
+        <definition>typedef struct MaaImageListBuffer MaaImageListBuffer</definition>
+        <argsstring></argsstring>
+        <name>MaaImageListBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="33" column="33" bodyfile="include/MaaFramework/MaaDef.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MaaDef_8h_1ab42b9ae54996623815428a30a8c9250d" prot="public" static="no">
+        <type>struct <ref refid="MaaDef_8h_1ab42b9ae54996623815428a30a8c9250d" kindref="member">MaaResource</ref></type>
+        <definition>typedef struct MaaResource MaaResource</definition>
+        <argsstring></argsstring>
+        <name>MaaResource</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="35" column="26" bodyfile="include/MaaFramework/MaaDef.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MaaDef_8h_1aa6c9c6967753196880a2a7f778fbb706" prot="public" static="no">
+        <type>struct <ref refid="MaaDef_8h_1aa6c9c6967753196880a2a7f778fbb706" kindref="member">MaaController</ref></type>
+        <definition>typedef struct MaaController MaaController</definition>
+        <argsstring></argsstring>
+        <name>MaaController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="36" column="28" bodyfile="include/MaaFramework/MaaDef.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MaaDef_8h_1a8c41e8466c5da06f230f729c29bdac8a" prot="public" static="no">
+        <type>struct <ref refid="MaaDef_8h_1a8c41e8466c5da06f230f729c29bdac8a" kindref="member">MaaTasker</ref></type>
+        <definition>typedef struct MaaTasker MaaTasker</definition>
+        <argsstring></argsstring>
+        <name>MaaTasker</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="37" column="24" bodyfile="include/MaaFramework/MaaDef.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MaaDef_8h_1ad2101e87aad0f5d03b8136943daee40e" prot="public" static="no">
+        <type>struct <ref refid="MaaDef_8h_1ad2101e87aad0f5d03b8136943daee40e" kindref="member">MaaContext</ref></type>
+        <definition>typedef struct MaaContext MaaContext</definition>
+        <argsstring></argsstring>
+        <name>MaaContext</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="38" column="25" bodyfile="include/MaaFramework/MaaDef.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MaaDef_8h_1ada00e4de6b9b4dcae75ed50f4bcaeef5" prot="public" static="no">
+        <type>int32_t</type>
+        <definition>typedef int32_t MaaStatus</definition>
+        <argsstring></argsstring>
+        <name>MaaStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="40" column="17" bodyfile="include/MaaFramework/MaaDef.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MaaDef_8h_1af8447ae4ab37f4c740d287a6697d2b72" prot="public" static="no">
+        <type>int32_t</type>
+        <definition>typedef int32_t MaaLoggingLevel</definition>
+        <argsstring></argsstring>
+        <name>MaaLoggingLevel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="52" column="17" bodyfile="include/MaaFramework/MaaDef.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MaaDef_8h_1abfd624a6cf1959968525f8088abdd772" prot="public" static="no">
+        <type>int32_t</type>
+        <definition>typedef int32_t MaaOption</definition>
+        <argsstring></argsstring>
+        <name>MaaOption</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="66" column="17" bodyfile="include/MaaFramework/MaaDef.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MaaDef_8h_1abb976599f915b1e04a9ff8bf7055bf81" prot="public" static="no">
+        <type>void *</type>
+        <definition>typedef void* MaaOptionValue</definition>
+        <argsstring></argsstring>
+        <name>MaaOptionValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="67" column="14" bodyfile="include/MaaFramework/MaaDef.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MaaDef_8h_1a56ff604006917171af8e4b4974db28ef" prot="public" static="no">
+        <type>uint64_t</type>
+        <definition>typedef uint64_t MaaOptionValueSize</definition>
+        <argsstring></argsstring>
+        <name>MaaOptionValueSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="68" column="18" bodyfile="include/MaaFramework/MaaDef.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MaaDef_8h_1a78a454cf5bf3e18aab3aef29cfc7b91c" prot="public" static="no">
+        <type><ref refid="MaaDef_8h_1abfd624a6cf1959968525f8088abdd772" kindref="member">MaaOption</ref></type>
+        <definition>typedef MaaOption MaaGlobalOption</definition>
+        <argsstring></argsstring>
+        <name>MaaGlobalOption</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="70" column="19" bodyfile="include/MaaFramework/MaaDef.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MaaDef_8h_1a96a661c5a0739f3238d192949635b7f7" prot="public" static="no">
+        <type><ref refid="MaaDef_8h_1abfd624a6cf1959968525f8088abdd772" kindref="member">MaaOption</ref></type>
+        <definition>typedef MaaOption MaaResOption</definition>
+        <argsstring></argsstring>
+        <name>MaaResOption</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="109" column="19" bodyfile="include/MaaFramework/MaaDef.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MaaDef_8h_1a76a304a8a9693667c34e81f9158be04c" prot="public" static="no">
+        <type>int32_t</type>
+        <definition>typedef int32_t MaaInferenceDevice</definition>
+        <argsstring></argsstring>
+        <name>MaaInferenceDevice</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="111" column="17" bodyfile="include/MaaFramework/MaaDef.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MaaDef_8h_1a1e9ad5d0eda27465f19c56680d49c2aa" prot="public" static="no">
+        <type>int32_t</type>
+        <definition>typedef int32_t MaaInferenceExecutionProvider</definition>
+        <argsstring></argsstring>
+        <name>MaaInferenceExecutionProvider</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="112" column="17" bodyfile="include/MaaFramework/MaaDef.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MaaDef_8h_1af8335ffd5a7df65830402c82a396c94e" prot="public" static="no">
+        <type><ref refid="MaaDef_8h_1abfd624a6cf1959968525f8088abdd772" kindref="member">MaaOption</ref></type>
+        <definition>typedef MaaOption MaaCtrlOption</definition>
+        <argsstring></argsstring>
+        <name>MaaCtrlOption</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="166" column="19" bodyfile="include/MaaFramework/MaaDef.h" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MaaDef_8h_1ade3bcba89b5092219c2af3b0faffa934" prot="public" static="no">
+        <type><ref refid="MaaDef_8h_1abfd624a6cf1959968525f8088abdd772" kindref="member">MaaOption</ref></type>
+        <definition>typedef MaaOption MaaTaskerOption</definition>
+        <argsstring></argsstring>
+        <name>MaaTaskerOption</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="201" column="19" bodyfile="include/MaaFramework/MaaDef.h" bodystart="201" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MaaDef_8h_1a337e4b247a734f5c1c058689f75c1369" prot="public" static="no">
+        <type>uint64_t</type>
+        <definition>typedef uint64_t MaaAdbScreencapMethod</definition>
+        <argsstring></argsstring>
+        <name>MaaAdbScreencapMethod</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Use bitwise OR to set the method you need, MaaFramework will test their speed and use the fastest one. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="212" column="18" bodyfile="include/MaaFramework/MaaDef.h" bodystart="212" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MaaDef_8h_1aa02386b09246fa0704ec371f80bb661f" prot="public" static="no">
+        <type>uint64_t</type>
+        <definition>typedef uint64_t MaaAdbInputMethod</definition>
+        <argsstring></argsstring>
+        <name>MaaAdbInputMethod</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Use bitwise OR to set the method you need, MaaFramework will select the available ones according to priority. The priority is: EmulatorExtras &gt; Maatouch &gt; MinitouchAndAdbKey &gt; AdbShell </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="232" column="18" bodyfile="include/MaaFramework/MaaDef.h" bodystart="232" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MaaDef_8h_1a23833339ba6406d680688350d27d37b3" prot="public" static="no">
+        <type>uint64_t</type>
+        <definition>typedef uint64_t MaaWin32ScreencapMethod</definition>
+        <argsstring></argsstring>
+        <name>MaaWin32ScreencapMethod</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>No bitwise OR, just set it </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="246" column="18" bodyfile="include/MaaFramework/MaaDef.h" bodystart="246" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MaaDef_8h_1a29af4457ff72b57b157a1d58d6d28878" prot="public" static="no">
+        <type>uint64_t</type>
+        <definition>typedef uint64_t MaaWin32InputMethod</definition>
+        <argsstring></argsstring>
+        <name>MaaWin32InputMethod</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>No bitwise OR, just set it </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="256" column="18" bodyfile="include/MaaFramework/MaaDef.h" bodystart="256" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MaaDef_8h_1a7a7491d55c50840ccb1891ba9b7740c4" prot="public" static="no">
+        <type>uint64_t</type>
+        <definition>typedef uint64_t MaaDbgControllerType</definition>
+        <argsstring></argsstring>
+        <name>MaaDbgControllerType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>No bitwise OR, just set it </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="265" column="18" bodyfile="include/MaaFramework/MaaDef.h" bodystart="265" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MaaDef_8h_1a90ae9b4896224481bd0967903dafdfa1" prot="public" static="no">
+        <type>struct <ref refid="structMaaRect" kindref="compound">MaaRect</ref></type>
+        <definition>typedef struct MaaRect MaaRect</definition>
+        <argsstring></argsstring>
+        <name>MaaRect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="276" column="9"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MaaDef_8h_1a83fe073ae3fefc09c17fd9eb6b6b3e50" prot="public" static="no">
+        <type>void(<ref refid="MaaPort_8h_1afaf570464c85866c04fabe324fe35c18" kindref="member">MAA_CALL</ref> *</type>
+        <definition>typedef void(MAA_CALL * MaaNotificationCallback) (const char *message, const char *details_json, void *notify_trans_arg)</definition>
+        <argsstring>)(const char *message, const char *details_json, void *notify_trans_arg)</argsstring>
+        <name>MaaNotificationCallback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="281" column="9" bodyfile="include/MaaFramework/MaaDef.h" bodystart="281" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MaaDef_8h_1a4c72d5184d2333b6deaabd76f2e4db13" prot="public" static="no">
+        <type><ref refid="MaaDef_8h_1a2f7289f2a8e07f48c6261b52a120cdf6" kindref="member">MaaBool</ref>(<ref refid="MaaPort_8h_1afaf570464c85866c04fabe324fe35c18" kindref="member">MAA_CALL</ref> *</type>
+        <definition>typedef MaaBool(MAA_CALL * MaaCustomRecognitionCallback) (MaaContext *context, MaaTaskId task_id, const char *current_task_name, const char *custom_recognition_name, const char *custom_recognition_param, const MaaImageBuffer *image, const MaaRect *roi, void *trans_arg, MaaRect *out_box, MaaStringBuffer *out_detail)</definition>
+        <argsstring>)(MaaContext *context, MaaTaskId task_id, const char *current_task_name, const char *custom_recognition_name, const char *custom_recognition_param, const MaaImageBuffer *image, const MaaRect *roi, void *trans_arg, MaaRect *out_box, MaaStringBuffer *out_detail)</argsstring>
+        <name>MaaCustomRecognitionCallback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="283" column="9" bodyfile="include/MaaFramework/MaaDef.h" bodystart="283" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MaaDef_8h_1a585ec65a9f845b2922eda1d2fffa36b7" prot="public" static="no">
+        <type><ref refid="MaaDef_8h_1a2f7289f2a8e07f48c6261b52a120cdf6" kindref="member">MaaBool</ref>(<ref refid="MaaPort_8h_1afaf570464c85866c04fabe324fe35c18" kindref="member">MAA_CALL</ref> *</type>
+        <definition>typedef MaaBool(MAA_CALL * MaaCustomActionCallback) (MaaContext *context, MaaTaskId task_id, const char *current_task_name, const char *custom_action_name, const char *custom_action_param, MaaRecoId reco_id, const MaaRect *box, void *trans_arg)</definition>
+        <argsstring>)(MaaContext *context, MaaTaskId task_id, const char *current_task_name, const char *custom_action_name, const char *custom_action_param, MaaRecoId reco_id, const MaaRect *box, void *trans_arg)</argsstring>
+        <name>MaaCustomActionCallback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/MaaFramework/MaaDef.h" line="295" column="9" bodyfile="include/MaaFramework/MaaDef.h" bodystart="295" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The type definitions. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para></para>
+</simplesect>
+<simplesect kind="copyright"><para>Copyright (c) 2024 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="include/MaaFramework/MaaDef.h"/>
+  </compounddef>
+</doxygen>
